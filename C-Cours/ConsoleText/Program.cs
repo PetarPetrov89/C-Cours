@@ -4,18 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace USDtoBGN
+namespace ConsoleText
 {
     class Program
     {
         static void Main(string[] args)
         {
-            double USD = double.Parse(Console.ReadLine());
+            string text = Console.ReadLine();
 
-            double BGR = USD * 1.79549;
-
-            Console.WriteLine($"{BGR:f2}");
+            Console.WriteLine(text);
         }
     }
 }
-

@@ -4,30 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace Calculator
+namespace Calculator_2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to my Calculator");
+
+            Console.WriteLine("Welcome to Calculator");
             Console.WriteLine("Please enter what to happen:");
 
-            Console.WriteLine("1. calculate");
-            Console.WriteLine("2. stop");
+            Console.WriteLine("1. Calculate");
+            Console.WriteLine("2. Stop");
             string rule = Console.ReadLine();
 
-            while (rule != "stop")
+            while (rule != "Stop")
             {
-                if (rule != "calculate")
+                if (rule != "Calculate")
                 {
                     rule = CreateRule();
                     continue;
                 }
-
                 Console.WriteLine();
-                Console.WriteLine("Please enter first number:");
+                Console.WriteLine("Pleace enter the first number:");
                 double number = double.Parse(Console.ReadLine());
 
                 Console.WriteLine($"{number}");
@@ -46,7 +45,6 @@ namespace Calculator
                 Console.WriteLine("Please choose from the list. and enter the number of the command");
 
                 int command = 0;
-
                 if (!int.TryParse(Console.ReadLine(), out command))
                 {
                     Console.WriteLine("You entered invalid command");
@@ -59,10 +57,10 @@ namespace Calculator
                 if (command >= 1 && command <= 4)
                 {
                     Console.WriteLine("Please enter second number:");
-
                     double number2 = double.Parse(Console.ReadLine());
 
                     switch (command)
+
                     {
                         case 1:
                             Console.WriteLine($"{number} + {number2} = {number + number2}");
@@ -76,10 +74,8 @@ namespace Calculator
                         case 4:
                             Console.WriteLine($"{number} / {number2} = {number / number2}");
                             break;
-
-                        default:
-                            break;
                     }
+
                 }
                 else
                 {
@@ -102,15 +98,12 @@ namespace Calculator
                             break;
                     }
                 }
-
                 rule = CreateRule();
             }
 
 
-
-
-
         }
+
 
         private static string CreateRule()
         {
@@ -118,7 +111,5 @@ namespace Calculator
 
             return Console.ReadLine();
         }
-
-
     }
 }
