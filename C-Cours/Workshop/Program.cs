@@ -20,8 +20,6 @@ namespace Workshop
             double areaPokrivki = (table * (lenghtTable + 2 * 0.30) * (widthTable + 2 * 0.30));
             double areaKareta = (table * (lenghtTable / 2) * (lenghtTable / 2));
 
-            //Console.WriteLine(areaPokrivki);
-            //Console.WriteLine(areaKareta);
             double priceUSD = (areaPokrivki * priceTable) + (areaKareta * priceKare);
             double priceBGR = priceUSD * 1.85;
 
