@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetRectangle", "GetRectangl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsDemo", "MethodsDemo\MethodsDemo.csproj", "{C8400625-7F02-487B-ADBD-E1C3F8AF4CD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWithMethods", "CalculatorWithMethods\CalculatorWithMethods.csproj", "{75F29266-E4C8-4C2C-8E23-11B17B1E1A5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{C8400625-7F02-487B-ADBD-E1C3F8AF4CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8400625-7F02-487B-ADBD-E1C3F8AF4CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8400625-7F02-487B-ADBD-E1C3F8AF4CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F29266-E4C8-4C2C-8E23-11B17B1E1A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F29266-E4C8-4C2C-8E23-11B17B1E1A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F29266-E4C8-4C2C-8E23-11B17B1E1A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F29266-E4C8-4C2C-8E23-11B17B1E1A5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
